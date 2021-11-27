@@ -1,0 +1,27 @@
+1-  git branch branca00
+    git checkout branca00
+    git status
+    
+5-  git checkout main
+    git status
+    git log main
+
+6-  Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?
+    No, ja que el fitxer s’ha editat en la branca branca00.
+
+7-  Torna a la branca branca00. Des de geany, actualitza el contingut del fitxer Prjava02.java. Pots veure l'última línia afegida?. Per què?.
+    git checkout branca00
+    Si, ja que el fitxer s’ha editat en la branca branca00. 
+
+10b-  git merge branca00
+
+12- git push
+    git status
+
+12c-  Comprova que només s'ha actualitzat la branca main únicament. Per què?.
+      Només s’ha actualitzar la branca main, ja que hem fet el push en aquesta branca sense indicar que agafi altres branques.
+
+14a-  git push --set-upstream origin branca01
+
+14c-  A quants commits de distància (commit ahead) està de la branca main?
+      Es troba a 6 commits de distancia.
